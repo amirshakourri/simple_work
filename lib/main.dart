@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/screens/home_screen.dart';
+import 'package:food_delivery_app/screens/login2_screen.dart';
 
 void main() {
   runApp(Application());
@@ -13,7 +13,7 @@ class Application extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: HomeScreenPage(),
+        body: LoginPage2(),
       ),
     );
   }

@@ -65,6 +65,8 @@ class _LoginScreenState extends State<LoginScreen> {
         backgroundColor: Color(0xffF2F2F2),
         body: TabBarView(
           children: [
+            // make some change at inside tabBar view
+            // removing singlechildScrollview here
             SingleChildScrollView(
               child: Container(
                 color: Color(0xFFF2F2F2),
